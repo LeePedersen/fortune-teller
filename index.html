@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Fortune Teller</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Fortune Teller</h1>
+    </div>
+    <form id="luckyStyuff">
+
+
+      <div class="form-group">
+        <p>Select all unlucky things that have happened to you in the past week:</p>
+        <input type="checkbox" name="unlucky" value="spoon">You dropped your spoon.<br>
+        <input type="checkbox" name="unlucky" value="fork">You found a fork.<br>
+        <input type="checkbox" name="unlucky" value="knife">All your knives are dull.<br>
+        <input type="checkbox" name="unlucky" value="chopstick">You broke your chopsticks.<br>
+        <input type="checkbox" name="unlucky" value="cleaver">You misused your cleaver.<br>
+        <input type="checkbox" name="unlucky" value="dildo">You ran out of silverware and had to use your sex toys.<br>
+      </div>
+      <div class="form-group">
+        <p>Select all lucky things that have happened to you in the past week:</p>
+        <input type="checkbox" name="lucky" value="paperclip">You found a paperclip in your shoe.<br>
+        <input type="checkbox" name="lucky" value="pencil">Your pencil lead didn't break when sharpened.<br>
+        <input type="checkbox" name="lucky" value="stickyNote">Your sticky note stayed where you stuck.<br>
+        <input type="checkbox" name="lucky" value="ruler">You measured something exactly a foot long.<br>
+        <input type="checkbox" name="lucky" value="coffee">Your coffee didn't give you the shits.<br>
+        <input type="checkbox" name="lucky" value="buttPlug">You found out your sex toy vibrates.<br>
+      </div>
+      <button type="submit" class="btn btn-danger">Cool ass button</button>
+    </form>
+    <div id="responses">
+
+    </div>
+  </div>
+</body>
+</html>
